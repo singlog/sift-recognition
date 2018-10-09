@@ -6,7 +6,7 @@ framedir = './frames/';
 siftdir = './sift/';
 bin = 1:1500;
 
-frame_names = ["friends_0000003652.jpeg","friends_0000000401.jpeg","friends_0000005806.jpeg","friends_0000003553.jpeg"];
+frame_names = ["0000003652.jpeg","0000000401.jpeg","0000005806.jpeg","0000003553.jpeg"];
 
 for i = 1:4
     im = imread([framedir char(frame_names(1,i))]);
